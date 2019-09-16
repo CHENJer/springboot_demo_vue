@@ -5,6 +5,7 @@ import HelloWorld from '@/components/HelloWorld'
 Vue.use(Router)
 
 export default new Router({
+  base:'/springboot_demo_vue/',
   routes: [
     {
       path: '/',
